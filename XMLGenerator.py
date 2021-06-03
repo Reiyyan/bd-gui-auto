@@ -188,7 +188,13 @@ class XMLGenerator:
             elif(shade == 'VISION SHADE'):
                 shade = 'VISION SHADE MOTOR'
 
-        elif(controlSystem == 'Neo' or controlSystem == 'Chainless' or controlSystem == 'ZeroGravity'):
+        elif(controlSystem == 'ZeroGravity'):
+            if(shade == 'SB INTERLUDE SHADE'):
+                shade = 'SB INTERLUDE SHADE ZEROGRAVITY'
+            elif(shade == 'SB ROLLER SHADE'):
+                shade = 'SB ZEROGRAVITY'
+
+        elif(controlSystem == 'Neo' or controlSystem == 'Chainless'):
             if(shade == 'SB INTERLUDE SHADE'):
                 shade = 'SB INTERLUDE SHADE CHAINLESS'
             elif(shade == 'SB ROLLER SHADE'):
@@ -748,19 +754,20 @@ class XMLGenerator:
 
         # TODO Fabric Valance has issues regarding in/out mount and drops
         if(valance == 'Fabric Valance'):
-            # if(valanceFinish == '6 Inch Drop'):
-            #     resultList.append(f"\n<TEDIOptionList_Details OptionName_='-Valance Type' Choice_='{dictValanceDesc.get('Fabric Valance 6')}' ChoiceCode_='{dictValanceCode.get('Fabric Valance 6')}'/>")
-            # elif(valanceFinish == '8 Inch Drop'):
-            #     resultList.append(f"\n<TEDIOptionList_Details OptionName_='-Valance Type' Choice_='{dictValanceDesc.get('Fabric Valance 8')}' ChoiceCode_='{dictValanceCode.get('Fabric Valance 8')}'/>")
-            # else:
-            resultList.append(f"\n<TEDIOptionList_Details OptionName_='-Valance Type' Choice_='{dictValanceDesc.get(valance)}' ChoiceCode_='{dictValanceCode.get(valance)}'/>")
             resultList.append(f'\n<TEDIOptionList_Details OptionName_="-Valance Option" Choice_="IM-Inside Mount" ChoiceCode_="Y_VALO_IM"/>')
-            resultList.append(f'\n<TEDIOptionList_Details OptionName_="-Valance Finish" Choice_="{dictFVColorDesc.get(valanceFinish)}" ChoiceCode_="{dictFVColorCode.get(valanceFinish)}"/>')
+
+            if(valanceFinish == '6 Inch Drop'):
+                resultList.append(f"\n<TEDIOptionList_Details OptionName_='-Valance Type' Choice_='{dictValanceDesc.get('Fabric Valance 6')}' ChoiceCode_='{dictValanceCode.get('Fabric Valance 6')}'/>")
+            elif(valanceFinish == '8 Inch Drop'):
+                resultList.append(f"\n<TEDIOptionList_Details OptionName_='-Valance Type' Choice_='{dictValanceDesc.get('Fabric Valance 8')}' ChoiceCode_='{dictValanceCode.get('Fabric Valance 8')}'/>")
 
         elif (valance == 'Fabric Valance w/ Return'):
-            resultList.append(f"\n<TEDIOptionList_Details OptionName_='-Valance Type' Choice_='{dictValanceDesc.get('Fabric Valance')}' ChoiceCode_='{dictValanceCode.get('Fabric Valance')}'/>")
             resultList.append(f'\n<TEDIOptionList_Details OptionName_="-Valance Option" Choice_="OM-Outside Mount" ChoiceCode_="Y_VALO_OM"/>')
-            resultList.append(f'\n<TEDIOptionList_Details OptionName_="-Valance Finish" Choice_="{dictFVColorDesc.get(valanceFinish)}" ChoiceCode_="{dictFVColorCode.get(valanceFinish)}"/>')
+
+            if(valanceFinish == '6 Inch Drop'):
+                resultList.append(f"\n<TEDIOptionList_Details OptionName_='-Valance Type' Choice_='{dictValanceDesc.get('Fabric Valance 6')}' ChoiceCode_='{dictValanceCode.get('Fabric Valance 6')}'/>")
+            elif(valanceFinish == '8 Inch Drop'):
+                resultList.append(f"\n<TEDIOptionList_Details OptionName_='-Valance Type' Choice_='{dictValanceDesc.get('Fabric Valance 8')}' ChoiceCode_='{dictValanceCode.get('Fabric Valance 8')}'/>")
 
         else:
             if(valance == 'Open Roll' and controlSystem == 'Neo'):

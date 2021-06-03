@@ -19,6 +19,8 @@ dictBlind = {
     "SB ILLUSION SHADE": "SBIL",
     "SB ILLUSION SHADE MOTOR": "SBIL-M",
     "VISION SHADE MOTOR": "V-M",
+    "SB INTERLUDE - ZG": "SBIN-ZG",
+    "SB ZEROGRAVITY": "SBZG",
 }
 
 dictBlindDesc = {
@@ -41,6 +43,8 @@ dictBlindDesc = {
     "SB ILLUSION SHADE": "SB Illusion",
     "SB ILLUSION SHADE MOTOR": "SB Illusion-Motorized",
     "VISION SHADE MOTOR": "Vision-Motorized",
+    "SB INTERLUDE - ZG": "SB Interlude - ZG",
+    "SB ZEROGRAVITY": "SB Zerogravity",
 }
 
 dictMeasure = {
@@ -246,7 +250,7 @@ dictDFColorCode = {
 dictECColorDesc = {
     "Anodized": "AN(EC)AN",
     "Black": "BK(EC)-BK",
-    "Brown" : "BR(EC)-BR",
+    "Brown": "BR(EC)-BR",
     "Linen": "LN(EC)-LN",
     "White": "WH(EC)-WH",
 }
@@ -254,7 +258,7 @@ dictECColorDesc = {
 dictECColorCode = {
     "Anodized": "Y_EC_AN",
     "Black": "Y_EC_BK",
-    "Brown" : "Y_EC_BR",
+    "Brown": "Y_EC_BR",
     "Linen": "Y_EC_LN",
     "White": "Y_EC_WH",
 }
@@ -549,24 +553,24 @@ dictClutchMotorCode = {
     "Sonesse Ultra 50 RA (6 Nm) - [SUSH506WT]": "Y_CLSSB_506UWT",
 
     # New Motor System
-    "Roll Up 28 WireFree RTS - [R28WFRTS]" : "Y_CLS_NR28",
-    "Sonesse 30 RS485 (2 Nm) - [S30485]" : "Y_CLS_RS485",
-    "Sonesse 30 RTS (2 Nm) - [S30RTS]" : "Y_CLS_S30",
-    "Sonesse 30 WireFree RTS (2 Nm) - [S30WFRTS]" : "Y_CLS_S30WF",
-    "Sonesse 50 RS485 (10 Nm) - [SSH510485]" : "NOT",
-    "Sonesse 50 RS485 (6 Nm) - [SSH506485]" : "Y_CLS_I6",
-    "Sonesse 50 RTS (10 Nm) - [SRH510RTS]" : "Y_CLS_510",
-    "Sonesse 50 RTS (10 Nm) - [SSH510RTS]" : "NOT",
-    "Sonesse 50 RTS (6 Nm) - [SRH506RTS]" : "Y_CLS_506",
-    "Sonesse 50 RTS (6 Nm) - [SSH506RTS]" : "Y_CLS_506SH",
-    "Sonesse 50 WT (10 Nm) - [SRH510WT]" : "Y_CLS_510",
-    "Sonesse 50 WT (10 Nm) - [SSH510WT]" : "Y_CLS_LT510SH",
-    "Sonesse 50 WT (6 Nm) - [SRH506WT]" : "Y_CLS_LT506",
-    "Sonesse 50 WT (6 Nm) - [SSH506WT]" : "Y_CLS_LT506SH",
-    "Sonesse Ultra 30 WireFree RTS (2 Nm) - [SU30WFRTS]" : "Y_CLS_SU30WF",
-    "Sonesse Ultra 50 RS485 (6 Nm) - [SUSH506485]" : "Y_CLS_I6USH",
-    "Sonesse Ultra 50 RTS (6 Nm) - [SURH506RTS]" : "Y_CLS_506U",
-    "Sonesse Ultra 50 RTS (6 Nm) - [SUSH506RTS]" : "Y_CLS_506USH",
+    "Roll Up 28 WireFree RTS - [R28WFRTS]": "Y_CLS_NR28",
+    "Sonesse 30 RS485 (2 Nm) - [S30485]": "Y_CLS_RS485",
+    "Sonesse 30 RTS (2 Nm) - [S30RTS]": "Y_CLS_S30",
+    "Sonesse 30 WireFree RTS (2 Nm) - [S30WFRTS]": "Y_CLS_S30WF",
+    "Sonesse 50 RS485 (10 Nm) - [SSH510485]": "NOT",
+    "Sonesse 50 RS485 (6 Nm) - [SSH506485]": "Y_CLS_I6",
+    "Sonesse 50 RTS (10 Nm) - [SRH510RTS]": "Y_CLS_510",
+    "Sonesse 50 RTS (10 Nm) - [SSH510RTS]": "NOT",
+    "Sonesse 50 RTS (6 Nm) - [SRH506RTS]": "Y_CLS_506",
+    "Sonesse 50 RTS (6 Nm) - [SSH506RTS]": "Y_CLS_506SH",
+    "Sonesse 50 WT (10 Nm) - [SRH510WT]": "Y_CLS_510",
+    "Sonesse 50 WT (10 Nm) - [SSH510WT]": "Y_CLS_LT510SH",
+    "Sonesse 50 WT (6 Nm) - [SRH506WT]": "Y_CLS_LT506",
+    "Sonesse 50 WT (6 Nm) - [SSH506WT]": "Y_CLS_LT506SH",
+    "Sonesse Ultra 30 WireFree RTS (2 Nm) - [SU30WFRTS]": "Y_CLS_SU30WF",
+    "Sonesse Ultra 50 RS485 (6 Nm) - [SUSH506485]": "Y_CLS_I6USH",
+    "Sonesse Ultra 50 RTS (6 Nm) - [SURH506RTS]": "Y_CLS_506U",
+    "Sonesse Ultra 50 RTS (6 Nm) - [SUSH506RTS]": "Y_CLS_506USH",
 }
 
 dictClutchMotorDesc = {
@@ -602,24 +606,24 @@ dictClutchMotorDesc = {
     "Sonesse Ultra 50 RA (6 Nm) - [SUSH506WT]": "SU506WT - Sonesse Ultra 506A2",
 
     # New Motor System
-    "Roll Up 28 WireFree RTS - [R28WFRTS]" : "R28RTS - R28 RTS Roll Up WF 12V DC (1.1Nm)",
-    "Sonesse 30 RS485 (2 Nm) - [S30485]" : "S30485 - Sonesse 30 RS485 (2Nm)",
-    "Sonesse 30 RTS (2 Nm) - [S30RTS]" : "S30RTS - Sonesse 30 RTS (2Nm)",
-    "Sonesse 30 WireFree RTS (2 Nm) - [S30WFRTS]" : "S30WFRTS - Sonesse 30 WireFree (Li-ion) RTS (2Nm)",
-    "Sonesse 50 RS485 (10 Nm) - [SSH510485]" : "NOT",
-    "Sonesse 50 RS485 (6 Nm) - [SSH506485]" : "I6-Sonesse 50 RS485 StarHead",
-    "Sonesse 50 RTS (10 Nm) - [SRH510RTS]" : "SRH510RTS - Sonesse 50 RTS(10Nm)",
-    "Sonesse 50 RTS (10 Nm) - [SSH510RTS]" : "NOT",
-    "Sonesse 50 RTS (6 Nm) - [SRH506RTS]" : "SRH506RTS - Sonesse 50 RTS (6Nm)",
-    "Sonesse 50 RTS (6 Nm) - [SSH506RTS]" : "SSH506RTS - Sonesse 50 RTS (6Nm)",
-    "Sonesse 50 WT (10 Nm) - [SRH510WT]" : "SRH510RTS - Sonesse 50 RTS(10Nm)",
-    "Sonesse 50 WT (10 Nm) - [SSH510WT]" : "S10SH-Sonesse 510 Standard SH RA",
-    "Sonesse 50 WT (6 Nm) - [SRH506WT]" : "S6-Sonesse 506 Standard 110V 6Nm",
-    "Sonesse 50 WT (6 Nm) - [SSH506WT]" : "S6SH-Sonesse 506 Standard SH 110V 6Nm",
-    "Sonesse Ultra 30 WireFree RTS (2 Nm) - [SU30WFRTS]" : "SU30WFRTS - Soneese Ultra 30 Wireless RTS (LI-ION) (2Nm)",
-    "Sonesse Ultra 50 RS485 (6 Nm) - [SUSH506485]" : "SUSH506485 - Sonesse Ultra 50 RS485",
-    "Sonesse Ultra 50 RTS (6 Nm) - [SURH506RTS]" : "SU506RTS-Sonesse Ultra 506 RTS 110V 6Nm",
-    "Sonesse Ultra 50 RTS (6 Nm) - [SUSH506RTS]" : "SUSH506RTS-Sonesse Ultra 506 RTS SH110V 6Nm",
+    "Roll Up 28 WireFree RTS - [R28WFRTS]": "R28RTS - R28 RTS Roll Up WF 12V DC (1.1Nm)",
+    "Sonesse 30 RS485 (2 Nm) - [S30485]": "S30485 - Sonesse 30 RS485 (2Nm)",
+    "Sonesse 30 RTS (2 Nm) - [S30RTS]": "S30RTS - Sonesse 30 RTS (2Nm)",
+    "Sonesse 30 WireFree RTS (2 Nm) - [S30WFRTS]": "S30WFRTS - Sonesse 30 WireFree (Li-ion) RTS (2Nm)",
+    "Sonesse 50 RS485 (10 Nm) - [SSH510485]": "NOT",
+    "Sonesse 50 RS485 (6 Nm) - [SSH506485]": "I6-Sonesse 50 RS485 StarHead",
+    "Sonesse 50 RTS (10 Nm) - [SRH510RTS]": "SRH510RTS - Sonesse 50 RTS(10Nm)",
+    "Sonesse 50 RTS (10 Nm) - [SSH510RTS]": "NOT",
+    "Sonesse 50 RTS (6 Nm) - [SRH506RTS]": "SRH506RTS - Sonesse 50 RTS (6Nm)",
+    "Sonesse 50 RTS (6 Nm) - [SSH506RTS]": "SSH506RTS - Sonesse 50 RTS (6Nm)",
+    "Sonesse 50 WT (10 Nm) - [SRH510WT]": "SRH510RTS - Sonesse 50 RTS(10Nm)",
+    "Sonesse 50 WT (10 Nm) - [SSH510WT]": "S10SH-Sonesse 510 Standard SH RA",
+    "Sonesse 50 WT (6 Nm) - [SRH506WT]": "S6-Sonesse 506 Standard 110V 6Nm",
+    "Sonesse 50 WT (6 Nm) - [SSH506WT]": "S6SH-Sonesse 506 Standard SH 110V 6Nm",
+    "Sonesse Ultra 30 WireFree RTS (2 Nm) - [SU30WFRTS]": "SU30WFRTS - Soneese Ultra 30 Wireless RTS (LI-ION) (2Nm)",
+    "Sonesse Ultra 50 RS485 (6 Nm) - [SUSH506485]": "SUSH506485 - Sonesse Ultra 50 RS485",
+    "Sonesse Ultra 50 RTS (6 Nm) - [SURH506RTS]": "SU506RTS-Sonesse Ultra 506 RTS 110V 6Nm",
+    "Sonesse Ultra 50 RTS (6 Nm) - [SUSH506RTS]": "SUSH506RTS-Sonesse Ultra 506 RTS SH110V 6Nm",
 
 }
 
@@ -776,7 +780,7 @@ dictSBClutchMotorDesc = {
 
     "Sonesse Ultra 50 WT (6 Nm) - [SURH506WT]": "SU506WT - Sonesse Ultra 506A2",
     "Sonesse Ultra 50 WT (6 Nm) - [SUSH506WT]": "SU506WT - Sonesse Ultra 506A2",
-    
+
     "Sonesse Ultra 50 DC RS485 (4 Nm) - [SU504DC485]": "SU504DC485 - Sonesse Ultra 50 DC RS485 (4Nm)",
     "Sonesse Ultra 50 DC RTS (4 Nm) - [SU504DCRTS]": "SU504DCRTS - Sonesse Ultra 50 DC RTS (4Nm)",
 }
@@ -871,8 +875,8 @@ dictValanceCode = {
     'SB 4" Fascia': 'Y_VALT_SBF4',
     'SB 4" Wrapped Fascia': 'Y_VALT_SBF4W',
 
-    'SB Compact Curved Cassette' : 'Y_VALT_SB50',
-    'SB Wrapped Compact Curved Cassette' : 'Y_VALT_SB50W',
+    'SB Compact Curved Cassette': 'Y_VALT_SB50',
+    'SB Wrapped Compact Curved Cassette': 'Y_VALT_SB50W',
 
 }
 
@@ -918,8 +922,8 @@ dictValanceDesc = {
     'SB 4" Fascia': 'SBF4-SB Fascia 4"',
     'SB 4" Wrapped Fascia': 'SBF4W-SB Fascia 4" Wrapped',
 
-    'SB Compact Curved Cassette' : 'CCC-SB Compact CC',
-    'SB Wrapped Compact Curved Cassette' : 'CCCW-SB Compact CC Wrapped',
+    'SB Compact Curved Cassette': 'CCC-SB Compact CC',
+    'SB Wrapped Compact Curved Cassette': 'CCCW-SB Compact CC Wrapped',
 }
 
 dictValanceFinishCode = {
@@ -1670,7 +1674,7 @@ dictAddCode = {
     "SGRSP": "BT-12-SOLAR-NC-0",
     "AC03": "CB-AC-P-INST-3",
     "AC06": "CB-AC-P-INST-6",
-    "AC10" : "CB-AC3-NMA-RTS-10",
+    "AC10": "CB-AC3-NMA-RTS-10",
     "AC12": "CB-AC-P-S/T50-12",
     "AC18": "CB-AC-P-S/T50-18",
     "AC24": "CB-AC-P-S/T50-24",
@@ -1786,10 +1790,10 @@ dictAddCode = {
     "WFE96": 'CB-12-S30WF-EX-96',
     "WFE94": 'CD-AC-EXCLU-NC-94.5',
     "SGRSP2": "BT-12-SOLAR2-NC-0",
-    "MK-SWA-RUS-SG-0" : "MK-SWA-RUS-SG-0",
-    'MK-SWA-CCA-SG-0' : 'MK-SWA-CCA-SG-0',
-    'MK-AL-DPST-WH-0' : 'MK-AL-DPST-WH-0',
-    "UAI" : "P-UAI-CNT-232",
+    "MK-SWA-RUS-SG-0": "MK-SWA-RUS-SG-0",
+    'MK-SWA-CCA-SG-0': 'MK-SWA-CCA-SG-0',
+    'MK-AL-DPST-WH-0': 'MK-AL-DPST-WH-0',
+    "UAI": "P-UAI-CNT-232",
 
 
 }
@@ -1917,10 +1921,10 @@ dictAddDesc = {
     "WFE96": 'Sonesse 30 WF Charger Extension Cable 96&quot;',
     "WFE94": 'Extension Cable for Sonesse ULTRA WireFree Motors, 94.5&quot;',
     "SGRSP2": "SGRSP2 - Solar Panel",
-    "MK-SWA-RUS-SG-0" : "Fabric Sample -Rustica RusticaO (4 colour each)",
-    'MK-SWA-CCA-SG-0' : 'Fabric Sample -Cirque/Chevron/Astratta',
-    'MK-AL-DPST-WH-0' : 'Display Stand',
-    "UAI" : "Somfy Connect UAI",
+    "MK-SWA-RUS-SG-0": "Fabric Sample -Rustica RusticaO (4 colour each)",
+    'MK-SWA-CCA-SG-0': 'Fabric Sample -Cirque/Chevron/Astratta',
+    'MK-AL-DPST-WH-0': 'Display Stand',
+    "UAI": "Somfy Connect UAI",
 
 }
 
