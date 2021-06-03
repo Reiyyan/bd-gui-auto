@@ -19,7 +19,7 @@ dictBlind = {
     "SB ILLUSION SHADE": "SBIL",
     "SB ILLUSION SHADE MOTOR": "SBIL-M",
     "VISION SHADE MOTOR": "V-M",
-    "SB INTERLUDE - ZG": "SBIN-ZG",
+    "SB INTERLUDE SHADE ZEROGRAVITY": "SBIN-ZG",
     "SB ZEROGRAVITY": "SBZG",
 }
 
@@ -43,7 +43,7 @@ dictBlindDesc = {
     "SB ILLUSION SHADE": "SB Illusion",
     "SB ILLUSION SHADE MOTOR": "SB Illusion-Motorized",
     "VISION SHADE MOTOR": "Vision-Motorized",
-    "SB INTERLUDE - ZG": "SB Interlude - ZG",
+    "SB INTERLUDE SHADE ZEROGRAVITY": "SB Interlude - ZG",
     "SB ZEROGRAVITY": "SB Zerogravity",
 }
 
