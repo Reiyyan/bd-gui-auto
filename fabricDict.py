@@ -91,10 +91,17 @@ fabricsDict = {
 "Basket Opaque-Checker-116" : "F-D-BSK-CHCO-116",
 "Basket Opaque-Camel-116" : "F-D-BSK-CMLO-116",
 "Basket Opaque-Heather-116" : "F-D-BSK-HTHO-116",
+
 "Basket Privacy-Acorn-116" : "F-D-BSKT-ACR-116",
 "Basket Privacy-Checker-116" : "F-D-BSKT-CHC-116",
 "Basket Privacy-Camel-116" : "F-D-BSKT-CML-116",
 "Basket Privacy-Heather-116" : "F-D-BSKT-HTH-116",
+
+"Basket Privacy-Acorn-118" : "F-D-BSKT-ACR-116",
+"Basket Privacy-Camel-118" : "F-D-BSKT-CML-116",
+"Basket Privacy-Checker-118" : "F-D-BSKT-CHC-116",
+"Basket Privacy-Heather-118" : "F-D-BSKT-HTH-116",
+
 "Cottonwood-Fair-118" : "F-D-CTW-FR-118",
 "Cottonwood-Milk-118" : "F-D-CTW-MLK-118",
 "Cottonwood-Smoky-118" : "F-D-CTW-SMK-118",
@@ -186,12 +193,21 @@ fabricsDict = {
 "Satin Opaque-Fair-110" : "F-D-STB-FAIO-110",
 "Satin Opaque-Ice-110" : "F-D-STB-ICEO-110",
 "Satin Opaque-Navy-110" : "F-D-STB-NAVO-110",
+
 "Satin Privacy-Champagne-110" : "F-D-STN-CHA-110",
 "Satin Privacy-Cinder-110" : "F-D-STN-CND-110",
 "Satin Privacy-Denim-110" : "F-D-STN-DEN-110",
 "Satin Privacy-Fair-110" : "F-D-STN-FAI-110",
 "Satin Privacy-Ice-110" : "F-D-STN-ICE-110",
 "Satin Privacy-Navy-110" : "F-D-STN-NAV-110",
+
+"Satin-Champagne-110" : "F-D-STN-CHA-110",
+"Satin-Cinder-110" : "F-D-STN-CND-110",
+"Satin-Denim-110" : "F-D-STN-DEN-110",
+"Satin-Fair-110" : "F-D-STN-FAI-110",
+"Satin-Ice-110" : "F-D-STN-ICE-110",
+"Satin-Navy-110" : "F-D-STN-NAV-110",
+
 "Summit Reflect-Beige-94" : "F-D-SUM-BGE-94",
 "Summit Reflect-Black-94" : "F-D-SUM-BLK-94",
 "Summit Reflect-Brown-94" : "F-D-SUM-BRN-94",
@@ -409,10 +425,17 @@ fabricsDict = {
 "Rustica Opaque-Taupe-110" : "F-D-RUO-TE-110",
 "Rustica Opaque-Silver-110" : "F-D-RUO-SV-110",
 "Rustica Opaque-Charcoal-110" : "F-D-RUO-CC-110",
+
+"Rustica Opaque-Black-110" : "F-D-RUO-CC-110",
+"Rustica Opaque-Light Grey-110" : "F-D-RUO-SV-110",
+
 "Rustica-White-110" : "F-D-RU-WH-110",
 "Rustica-Taupe-110" : "F-D-RU-TE-110",
 "Rustica-Silver-110" : "F-D-RU-SV-110",
 "Rustica-Charcoal-110" : "F-D-RU-CC-110",
+
+"Rustica-Black-110" : "F-D-RU-CC-110",
+"Rustica-Light Grey110" : "F-D-RU-SV-110",
 
 "CS 103 Reflect-1 White-110" : "F-CSR-103-1-110",
 "CS 103 Reflect-2 Beige-110" : "F-CSR-103-2-110",
