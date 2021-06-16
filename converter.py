@@ -10,8 +10,8 @@ import time
 import sys
 
 convLogger = Logger()
-runGui = True
-# runGui = False
+# runGui = True
+runGui = False
 
 class Converter:
 
@@ -256,6 +256,7 @@ my_gui = Converter(root)
 if(runGui):
     root.mainloop()
 else:
+    print("Starting in BG")
     # schedule.every(2).seconds.do(test)
     # schedule.every(5).seconds.do(my_gui.autoRun)
     schedule.every().monday.at("06:55").do(my_gui.autoRun)

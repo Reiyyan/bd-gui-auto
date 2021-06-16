@@ -67,15 +67,15 @@ class XMLGenerator:
         #   If Plastic Chain (In int and SOMETHING TODO)
             elif((shade == "INTERLUDE SHADE") or (shade == "ROMAN SHADE")):
                 if(chainLength < 39):
-                    returnList.append(f"\n<TEDIOptionList_Details OptionName_='-Control Option' Choice_=\"2'-Plastic Loop\"  ChoiceCode_=\"Y_COP2_PL2\"/>")
+                    returnList.append(f"\n<TEDIOptionList_Details OptionName_='-Control Option' Choice_=\"24'-Plastic Loop\"  ChoiceCode_=\"Y_COP2_PL2\"/>")
                 elif(chainLength < 51):
-                    returnList.append(f"\n<TEDIOptionList_Details OptionName_='-Control Option' Choice_=\"3'-Plastic Loop\"  ChoiceCode_=\"Y_COP2_PL3\"/>")
+                    returnList.append(f"\n<TEDIOptionList_Details OptionName_='-Control Option' Choice_=\"36'-Plastic Loop\"  ChoiceCode_=\"Y_COP2_PL3\"/>")
                 elif(chainLength < 63):
-                    returnList.append(f"\n<TEDIOptionList_Details OptionName_='-Control Option' Choice_=\"4'-Plastic Loop\"  ChoiceCode_=\"Y_COP2_PL4\"/>")       
+                    returnList.append(f"\n<TEDIOptionList_Details OptionName_='-Control Option' Choice_=\"48'-Plastic Loop\"  ChoiceCode_=\"Y_COP2_PL4\"/>")       
                 elif(chainLength < 75):
-                    returnList.append(f"\n<TEDIOptionList_Details OptionName_='-Control Option' Choice_=\"5'-Plastic Loop\"  ChoiceCode_=\"Y_COP2_PL5\"/>")
+                    returnList.append(f"\n<TEDIOptionList_Details OptionName_='-Control Option' Choice_=\"60'-Plastic Loop\"  ChoiceCode_=\"Y_COP2_PL5\"/>")
                 else:
-                    returnList.append(f"\n<TEDIOptionList_Details OptionName_='-Control Option' Choice_=\"6'-Plastic Loop\"  ChoiceCode_=\"Y_COP2_PL6\"/>")              
+                    returnList.append(f"\n<TEDIOptionList_Details OptionName_='-Control Option' Choice_=\"72'-Plastic Loop\"  ChoiceCode_=\"Y_COP2_PL6\"/>")              
 
         return returnList
 
