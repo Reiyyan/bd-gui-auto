@@ -245,6 +245,8 @@ accountsDesc = {
 "ridgetown@homehardware.ca" : "HH-Carter's Home Hardware (Store # 1356-6)",
 "pmacginty@hurontel.on.ca" : "Blissful Blinds",
 "covers5@coverscanada.ca" : "Covers Canada Inc.",
+"covers2@coverscanada.ca" : "Covers Canada Inc.",
+"info@stridedesign.ca" : "Stride Design Collective Inc.",
 }
 
 # 50/35
@@ -496,6 +498,8 @@ accountsCode = {
 "ridgetown@homehardware.ca" : "11792C",
 "pmacginty@hurontel.on.ca" : "11761C",
 "covers5@coverscanada.ca" : "10177C",
+"covers2@coverscanada.ca" : "10177C",
+"info@stridedesign.ca" : "12188C",
 
 }
 
