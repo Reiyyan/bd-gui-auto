@@ -247,6 +247,8 @@ accountsDesc = {
 "covers5@coverscanada.ca" : "Covers Canada Inc.",
 "covers2@coverscanada.ca" : "Covers Canada Inc.",
 "info@stridedesign.ca" : "Stride Design Collective Inc.",
+"hello@goodhaus.ca" : "Goodhaus Blinds & Design",
+
 }
 
 # 50/35
@@ -500,6 +502,7 @@ accountsCode = {
 "covers5@coverscanada.ca" : "10177C",
 "covers2@coverscanada.ca" : "10177C",
 "info@stridedesign.ca" : "12188C",
+"hello@goodhaus.ca" : "12154C",
 
 }
 
