@@ -149,12 +149,12 @@ dictHemDesc = {
 }
 
 dictABColorDesc = {
-    "Anodized": "AN(AB)-AN",
-    "Black": "BK(AB)-BK",
-    "Dark Bronze": "DB(AB)-DB",
-    "Brown": "DB(AB)-DB",
-    "Linen": "LN(AB)-LN",
-    "White": "WH(AB)-WH",
+    "Anodized": "AN(AB)-Anodized",
+    "Black": "BK(AB)-Black",
+    "Dark Bronze": "DB(AB)-Dark Brown",
+    "Brown": "DB(AB)-Dark Brown",
+    "Linen": "LN(AB)-Linen",
+    "White": "WH(AB)-White",
 }
 
 dictABColorCode = {
@@ -167,11 +167,11 @@ dictABColorCode = {
 }
 
 dictACColorDesc = {
-    "Anodized": "AN(AC)-AN",
-    "Black": "BK(AC)-BK",
-    "Dark Bronze": "DB(AC)-DB",
-    "Linen": "LN(AC)-LN",
-    "White": "WH(AC)-WH",
+    "Anodized": "AN(AC)-Anodized",
+    "Black": "BK(AC)-Black",
+    "Dark Bronze": "DB(AC)-Dark Brown",
+    "Linen": "LN(AC)-Linen",
+    "White": "WH(AC)-White",
 }
 
 dictACColorCode = {
@@ -183,12 +183,12 @@ dictACColorCode = {
 }
 
 dictSBColorDesc = {
-    "Anodized": "AN(SB)-AN",
-    "Black": "BK(SB)-BK",
-    "Dark Bronze": "DB(SB)-DB",
-    "Brown": "DB(SB)-DB",
-    "Linen": "LN(SB)-LN",
-    "White": "WH(SB)-WH",
+    "Anodized": "AN(SB)-Anodized",
+    "Black": "BK(SB)-Black",
+    "Dark Bronze": "DB(SB)-Dark Brown",
+    "Brown": "DB(SB)-Dark Brown",
+    "Linen": "LN(SB)-Linen",
+    "White": "WH(SB)-White",
 }
 
 dictSBColorCode = {
@@ -201,10 +201,10 @@ dictSBColorCode = {
 }
 
 dictIllColorDesc = {
-    "Anodized": "AN(ILL)-AN",
-    "Dark Bronze": "DB(ILL)-DB",
-    "Linen": "LN(ILL)-LN",
-    "White": "WH(ILL)-WH",
+    "Anodized": "AN(ILL)-Anodized",
+    "Dark Bronze": "DB(ILL)-Dark Brown",
+    "Linen": "LN(ILL)-Linen",
+    "White": "WH(ILL)-White",
 }
 
 dictIllColorCode = {
@@ -215,11 +215,11 @@ dictIllColorCode = {
 }
 
 dictInColorDesc = {
-    "Anodized": "AN(IN)-AN",
-    "Black": "BK(IN)-BK",
-    "Dark Bronze": "DB(IN)-DB",
-    "Linen": "LN(IN)-LN",
-    "White": "WH(IN)-WH",
+    "Anodized": "AN(IN)-Anodized",
+    "Black": "BK(IN)-Black",
+    "Dark Bronze": "DB(IN)-Dark Brown",
+    "Linen": "LN(IN)-Linen",
+    "White": "WH(IN)-White",
 }
 
 dictInColorCode = {
@@ -231,28 +231,28 @@ dictInColorCode = {
 }
 
 dictDFColorDesc = {
-    "Anodized": "AN(DF)-AN",
-    "Black": "BK(DF)-BK",
-    # "Dark Bronze" : "DB(IN)-DB",
-    "Linen": "LN(DF)-LN",
-    "White": "WH(DF)-WH",
+    "Anodized": "AN(DF)-Anodized",
+    "Black": "BK(DF)-Black",
+    "Dark Bronze" : "DB(DF)-Dark Brown",
+    "Linen": "LN(DF)-Linen",
+    "White": "WH(DF)-White",
 }
 
 dictDFColorCode = {
     "Anodized": "Y_DF_AN",
     "Black": "Y_DF_BK",
-    # "Dark Bronze" : "Y_DF_DB",
+    "Dark Bronze" : "Y_DF_DB",
     "Linen": "Y_DF_LN",
     "White": "Y_DF_WH",
 }
 
 
 dictECColorDesc = {
-    "Anodized": "AN(EC)AN",
-    "Black": "BK(EC)-BK",
-    "Brown": "BR(EC)-BR",
-    "Linen": "LN(EC)-LN",
-    "White": "WH(EC)-WH",
+    "Anodized": "AN(EC)-Anodized",
+    "Black": "BK(EC)-Black",
+    "Brown": "BR(EC)-Brown",
+    "Linen": "LN(EC)-Linen",
+    "White": "WH(EC)-White",
 }
 
 dictECColorCode = {
@@ -945,10 +945,10 @@ dictValanceFinishDesc = {
 }
 
 dictAriaColorDesc = {
-    "Anodized": "AN(AR)-AN",
-    "Black": "BK(AR)-BK",
-    "Linen": "LN(AR)-LN",
-    "White": "WH(AR)-WH",
+    "Anodized": "AN(AR)-Anodized",
+    "Black": "BK(AR)-Black",
+    "Linen": "LN(AR)-Linen",
+    "White": "WH(AR)-White",
 }
 
 dictAriaColorCode = {
@@ -959,7 +959,7 @@ dictAriaColorCode = {
 }
 
 dictCBXColorDesc = {
-    "Anodized": "AN(CBX)-AN",
+    "Anodized": "AN(CBX)-Anodized",
 }
 
 dictCBXColorCode = {
@@ -1015,8 +1015,8 @@ dictD16ColorCode = {
 }
 
 dictHCColorDesc = {
-    "Anodized": "AN(HC)-AN",
-    "White": "WH(HC)-WH",
+    "Anodized": "AN(HC)-Anodized",
+    "White": "WH(HC)-White",
 }
 
 dictHCColorCode = {
@@ -1025,8 +1025,8 @@ dictHCColorCode = {
 }
 
 dictHCCColorDesc = {
-    "Anodized": "AN(HCC)-AN",
-    "White": "WH(HCC)-WH",
+    "Anodized": "AN(HCC)-Anodized",
+    "White": "WH(HCC)-White",
 }
 
 dictHCCColorCode = {
@@ -1046,7 +1046,6 @@ dictOpenValanceFinishDesc = {
     "White"	: "WH-White",
     "Black"	: "BL-Black",
     "Grey" : "GR-Grey",
-
 }
 
 dictSF3ColorDesc = {
@@ -1082,8 +1081,8 @@ dictSF4ColorCode = {
 }
 
 dictSF5ColorDesc = {
-    "Anodized": "AN(SF5)-AN",
-    "White": "WH(SF5)-WH",
+    "Anodized": "AN(SF5)-Anodized",
+    "White": "WH(SF5)-White",
 }
 
 dictSF5ColorCode = {
@@ -1092,11 +1091,11 @@ dictSF5ColorCode = {
 }
 
 dictV102ColorDesc = {
-    "Anodized": "AN(V102)-AN",
-    "Black": "BK(V102)-BK",
-    "Dark Bronze": "DBR(V102)-DBR",
-    "Linen": "LN(V102)-LN",
-    "White": "WH(V102)-WH",
+    "Anodized": "AN(V102)-Anodized",
+    "Black": "BK(V102)-Black",
+    "Dark Bronze": "DBR(V102)-Dark Brown",
+    "Linen": "LN(V102)-Linen",
+    "White": "WH(V102)-White",
 }
 
 dictV102ColorCode = {
@@ -1108,11 +1107,11 @@ dictV102ColorCode = {
 }
 
 dictV84ColorDesc = {
-    "Anodized": "AN(V84)-AN",
-    "Black": "BK(V84)-BK",
-    "Dark Bronze": "DBR(V84)-DBR",
-    "Linen": "LN(V84)-LN",
-    "White": "WH(V84)-WH",
+    "Anodized": "AN(V84)-Anodized",
+    "Black": "BK(V84)-Black",
+    "Dark Bronze": "DBR(V84)-Dark Brown",
+    "Linen": "LN(V84)-Linen",
+    "White": "WH(V84)-White",
 }
 
 dictV84ColorCode = {
@@ -1124,9 +1123,9 @@ dictV84ColorCode = {
 }
 
 dictPVCColorDesc = {
-    "Linen": "LN(PVC)-LN",
-    "White - Special": "WH(PVC)-WH",
-    "White": "WH(PVC)-WH",
+    "Linen": "LN(PVC)-Linen",
+    "White - Special": "WH(PVC)-White",
+    "White": "WH(PVC)-White",
 }
 
 dictPVCColorCode = {
@@ -1156,11 +1155,11 @@ dictValanceCapsDesc = {
 
 # SB Valances
 dictCCCColorDesc = {
-    "Anodized": "AN(CCC)-AN",
-    "Black": "BK(CCC)-BK",
-    "Brown": "DB(CCC)-DB",
-    "Linen": "LN(CCC)-LN",
-    "White": "WH(CCC)-WH",
+    "Anodized": "AN(CCC)-Anodized",
+    "Black": "BK(CCC)-Black",
+    "Brown": "DB(CCC)-Dark Brown",
+    "Linen": "LN(CCC)-Linen",
+    "White": "WH(CCC)-White",
 }
 
 dictCCCColorCode = {
@@ -1172,11 +1171,11 @@ dictCCCColorCode = {
 }
 
 dictCCCWColorDesc = {
-    "Anodized": "AN(CCCW)-AN",
-    "Black": "BK(CCCW)-BK",
-    "Linen": "LN(CCCW)-LN",
-    "White": "WH(CCCW)-WH",
-    "Brown": "DB(CCCW)-DB",
+    "Anodized": "AN(CCCW)-Anodized",
+    "Black": "BK(CCCW)-Black",
+    "Linen": "LN(CCCW)-Linen",
+    "White": "WH(CCCW)-White",
+    "Brown": "DB(CCCW)-Dark Brown",
 }
 
 dictCCCWColorCode = {
@@ -1188,11 +1187,11 @@ dictCCCWColorCode = {
 }
 
 dictCCColorDesc = {
-    "Anodized": "AN(CC)-AN",
-    "Black": "BK(CC)-BK",
-    "Brown": "DB(CC)-DB",
-    "Linen": "LN(CC)-LN",
-    "White": "WH(CC)-WH",
+    "Anodized": "AN(CC)-Anodized",
+    "Black": "BK(CC)-Black",
+    "Brown": "DB(CC)-Dark Brown",
+    "Linen": "LN(CC)-Linen",
+    "White": "WH(CC)-White",
 }
 
 dictCCColorCode = {
@@ -1204,11 +1203,11 @@ dictCCColorCode = {
 }
 
 dictCCWColorDesc = {
-    "Anodized": "AN(CCW)-AN",
-    "Black": "BK(CCW)-BK",
-    "Linen": "LN(CCW)-LN",
-    "White": "WH(CCW)-WH",
-    "Brown": "DB(CCW)-DB",
+    "Anodized": "AN(CCW)-Anodized",
+    "Black": "BK(CCW)-Black",
+    "Linen": "LN(CCW)-Linen",
+    "White": "WH(CCW)-White",
+    "Brown": "DB(CCW)-Dark Brown",
 }
 
 dictCCWColorCode = {
@@ -1252,10 +1251,10 @@ dictDSColorCode = {
 }
 
 dictSCColorDesc = {
-    "Anodized": "AN(SC)-AN",
-    "Black": "BK(SC)-BK",
-    "Dark Bronze": "DBR(SC)-DBR",
-    "White": "WH(SC)-WH",
+    "Anodized": "AN(SC)-Anodized",
+    "Black": "BK(SC)-Black",
+    "Dark Bronze": "DBR(SC)-Dark Brown",
+    "White": "WH(SC)-White",
 }
 
 dictSCColorCode = {
@@ -1266,12 +1265,12 @@ dictSCColorCode = {
 }
 
 dictSQF3ColorDesc = {
-    "Anodized": "AN(SQF3)-AN",
-    "Black": "BK(SQF3)-BK",
-    "Dark Bronze": "DB(SQF3)-DB",
-    "Brown": "DB(SQF3)-DB",
-    "Linen": "LN(SQF3)-LN",
-    "White": "WH(SQF3)-WH",
+    "Anodized": "AN(SQF3)-Anodized",
+    "Black": "BK(SQF3)-Black",
+    "Dark Bronze": "DB(SQF3)-Dark Brown",
+    "Brown": "DB(SQF3)-Dark Brown",
+    "Linen": "LN(SQF3)-Linen",
+    "White": "WH(SQF3)-White",
 }
 
 dictSQF3ColorCode = {
@@ -1284,12 +1283,12 @@ dictSQF3ColorCode = {
 }
 
 dictSQF4ColorDesc = {
-    "Anodized": "AN(SQF4)-AN",
-    "Black": "BK(SQF4)-BK",
-    "Dark Bronze": "DB(SQF4)-DB",
-    "Brown": "DB(SQF4)-DB",
-    "Linen": "LN(SQF4)-LN",
-    "White": "WH(SQF4)-WH",
+    "Anodized": "AN(SQF4)-Anodized",
+    "Black": "BK(SQF4)-Black",
+    "Dark Bronze": "DB(SQF4)-Dark Brown",
+    "Brown": "DB(SQF4)-Dark Brown",
+    "Linen": "LN(SQF4)-Linen",
+    "White": "WH(SQF4)-White",
 }
 
 dictSQF4ColorCode = {
@@ -1302,12 +1301,12 @@ dictSQF4ColorCode = {
 }
 
 dictSQF4WColorDesc = {
-    "Anodized": "AN(SQF4W)-AN",
-    "Black": "BK(SQF4W)-BK",
-    "Dark Bronze": "DB(SQF4W)-DB",
-    "Brown": "DB(SQF4W)-DB",
-    "Linen": "LN(SQF4W)-LN",
-    "White": "WH(SQF4W)-WH",
+    "Anodized": "AN(SQF4W)-Anodized",
+    "Black": "BK(SQF4W)-Black",
+    "Dark Bronze": "DB(SQF4W)-Dark Brown",
+    "Brown": "DB(SQF4W)-Dark Brown",
+    "Linen": "LN(SQF4W)-Linen",
+    "White": "WH(SQF4W)-White",
 }
 
 dictSQF4WColorCode = {
