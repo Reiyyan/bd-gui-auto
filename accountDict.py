@@ -248,6 +248,7 @@ accountsDesc = {
 "covers2@coverscanada.ca" : "Covers Canada Inc.",
 "info@stridedesign.ca" : "Stride Design Collective Inc.",
 "hello@goodhaus.ca" : "Goodhaus Blinds & Design",
+"info@saskblindfactory.com" : "Distinctive Draperies(The Blind Factory)",
 
 }
 
@@ -503,6 +504,7 @@ accountsCode = {
 "covers2@coverscanada.ca" : "10177C",
 "info@stridedesign.ca" : "12188C",
 "hello@goodhaus.ca" : "12154C",
+"info@saskblindfactory.com" : "10032C",
 
 }
 
