@@ -1037,13 +1037,16 @@ dictHCCColorCode = {
 dictOpenValanceFinishCode = {
     "Metal"	: "Y_BRKC_NKL",
     "White"	: "Y_BRKC_WH",
-    "Black"	: "Y_BRKC_BL"
+    "Black"	: "Y_BRKC_BL",
+    "Grey" : "Y_BRKC_GRY",
 }
 
 dictOpenValanceFinishDesc = {
     "Metal"	: "M-Metal",
     "White"	: "WH-White",
-    "Black"	: "BL-Black"
+    "Black"	: "BL-Black",
+    "Grey" : "GR-Grey",
+
 }
 
 dictSF3ColorDesc = {
@@ -1354,13 +1357,14 @@ dictSBBracketColorCode = {
     "Black"	: "Y_BRKC_DBL",
     "White"	: "Y_BRKC_DWH",
     "Standard": "Y_BRKC_DWH",
+    "Grey" : "Y_BRKC_DGRY",
 }
 
 dictSBBracketColorDesc = {
     "Black"	: "BL-Black",
     "White"	: "WH-White",
     "Standard": "WH-White",
-
+    "Grey" : "GR-Grey",
 }
 
 # MOUNT
