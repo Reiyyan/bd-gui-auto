@@ -10,8 +10,8 @@ import time
 import sys
 
 convLogger = Logger()
-# runGui = True
-runGui = False
+runGui = True
+# runGui = False
 
 class Converter:
 
