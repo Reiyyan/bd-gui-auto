@@ -1453,6 +1453,10 @@ class XMLGenerator:
             blindData['shade'] = 'SB ILLUSION SHADE'
             shade = 'SB ILLUSION SHADE'
 
+        if(shade == 'DIAMOND SHADE'):
+            blindData['shade'] = 'ARIA SHADE'
+            shade = 'ARIA SHADE'
+
         argument = shade if shade != None else 'PRODUCT'
 
         # Get the correct blind type, else return Invalid blind

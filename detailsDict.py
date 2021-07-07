@@ -326,6 +326,7 @@ dictCSystemCode = {
     "Chain": "Y_CTR_C",
     "Neo": "Y_CTR_N",
     "Aria": "Y_CTR_N",
+    "Diamond": "Y_CTR_N",
     "Motor": "Y_CTR_M",
     "Cord": "Y_CTR_CD",
     "Wand": "Y_CTR_WA",
@@ -344,6 +345,8 @@ dictCSystemDesc = {
     "Chain": "CH-Chain",
     "Neo": "NE-Chainless",
     "Aria": "NE-Chainless",
+    "Diamond": "NE-Chainless",
+
     "Motor": "MT-Motorized",
     "Cord": "CD-Cord",
     "Wand": "WA-Wand",
@@ -855,6 +858,7 @@ dictValanceCode = {
     'V84 Front, Return & Back Fascia': 'Y_VALT_V84',
     'V84 Front, Return, Back & Top Fascia': 'Y_VALT_V84',
     'Aria': 'Y_VALT_D',
+    'Diamond': 'Y_VALT_D',
 
     'Curved Cassette S': 'Y_VALT_D8',
     'Curved Cassette M': 'Y_VALT_D12',
@@ -902,6 +906,7 @@ dictValanceDesc = {
     'V84 Front, Return & Back Fascia': 'V84-Vision 84mm',
     'V84 Front, Return, Back & Top Fascia': 'V84-Vision 84mm',
     "Aria": "D-Diamond",
+    "Diamond": "D-Diamond",
 
     'Curved Cassette S': 'D8-Decora 8',
     'Curved Cassette M': 'D12-Decora 12',
