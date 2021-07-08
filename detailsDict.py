@@ -357,7 +357,7 @@ dictCSystemDesc = {
 
     "Chainless": "NE-Chainless",
 
-    "ZeroGravity": "ZG-Chainless"
+    "ZeroGravity": "ZG-Zero Gravity"
 
 }
 
