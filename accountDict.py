@@ -249,6 +249,7 @@ accountsDesc = {
 "info@stridedesign.ca" : "Stride Design Collective Inc.",
 "hello@goodhaus.ca" : "Goodhaus Blinds & Design",
 "info@saskblindfactory.com" : "Distinctive Draperies(The Blind Factory)",
+"Lisa@stradwicknorthbay.com" : "Stradwicks Carpet One North Bay",
 
 }
 
@@ -505,6 +506,7 @@ accountsCode = {
 "info@stridedesign.ca" : "12188C",
 "hello@goodhaus.ca" : "12154C",
 "info@saskblindfactory.com" : "10032C",
+"Lisa@stradwicknorthbay.com" : "11217C",
 
 }
 
