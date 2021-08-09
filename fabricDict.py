@@ -348,6 +348,10 @@ fabricsDict = {
 "Midnight-Ivory -110" : "F-IN-TMP-IVY-110",
 "Midnight-Timber Wolf-110" : "F-IN-TMP-TIM-110",
 "Midnight-Winter White-110" : "F-IN-TMP-WW-110",
+"Midnight-Grey-110" : "F-IN-TMP-GY-110",
+"Midnight-Ivory-110" : "F-IN-TMP-IVY-110",
+"Midnight-WinterWhite-110" : "F-IN-TMP-WW-110",
+
 "Vintage-Acapulco-110" : "F-IN-VNT-ACP-110",
 "Vintage-Berkeley-110" : "F-IN-VNT-BRK-110",
 "Vintage-Beatnik-110" : "F-IN-VNT-BTN-110",

@@ -725,7 +725,7 @@ class XMLGenerator:
 
             # resultList.append(f'\n<TEDIOptionList_Details OptionName_="-Valance Finish" Choice_="{dictAriaColorDesc.get(valanceFinish)}" ChoiceCode_="{dictAriaColorCode.get(valanceFinish)}"/>')
 
-            resultList.append(f'\n<TEDIOptionList_Details OptionName_="-Valance Finish" Choice_="WH(AR)-WH" ChoiceCode_="Y_AR_W"/>')
+            resultList.append(f'\n<TEDIOptionList_Details OptionName_="-Valance Finish" Choice_="WH(AR)-White" ChoiceCode_="Y_AR_W"/>')
 
         # OTHER
         # if (valance != 'Open Roll' and valance != 'Fabric Valance'):
@@ -962,7 +962,7 @@ class XMLGenerator:
         sCMount = blindData.get('sideChannelMount')
         sCFinish = blindData.get('sideChannelFinish')
 
-        if (sC != None and sC != "None"):
+        if (sC != None and sC != "None" and sC != ''):
             returnList.append(f'\n<TEDIOptionList_Details OptionName="-Side Ch. Type" Choice_="{dictSideChannelDesc.get(sC)}" ChoiceCode_="{dictSideChannelCode.get(sC)}"/>')
             returnList.append(f'\n<TEDIOptionList_Details OptionName="-SCMount" Choice_="{dictSCMountDesc.get(sCMount)}" ChoiceCode_="{dictSCMountCode.get(sCMount)}"/>')
             returnList.append(f'\n<TEDIOptionList_Details OptionName="-Side Ch. Finish" Choice_="{dictSCColorDesc.get(sCFinish)}" ChoiceCode_="{dictSCColorCode.get(sCFinish)}"/>')
@@ -1339,7 +1339,7 @@ class XMLGenerator:
         shadeList.extend(self.addClutchColor(blindData))
         shadeList.extend(self.addChildSafety(blindData))
         shadeList.extend(self.addHoldDown(blindData))
-        # shadeList.extend(self.addSideChannels(blindData))
+        shadeList.extend(self.addSideChannels(blindData))
         shadeList.extend(self.addRollType(blindData))
         
         shadeList.append(f'\n</TEDIOrderDetails_Details>')
@@ -1446,6 +1446,10 @@ class XMLGenerator:
         product = blindData.get('product')
 
         if(shade == 'SB BANDED SHADE'):
+            blindData['shade'] = 'SB INTERLUDE SHADE'
+            shade = 'SB INTERLUDE SHADE'
+
+        if(shade == 'SB ZEBRA SHADE'):
             blindData['shade'] = 'SB INTERLUDE SHADE'
             shade = 'SB INTERLUDE SHADE'
 
