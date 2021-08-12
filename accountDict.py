@@ -250,6 +250,9 @@ accountsDesc = {
 "hello@goodhaus.ca" : "Goodhaus Blinds & Design",
 "info@saskblindfactory.com" : "Distinctive Draperies(The Blind Factory)",
 "lisa@stradwicksnorthbay.com" : "Stradwicks Carpet One North Bay",
+"stcatherines@endoftheroll.com" : "THD 7023 St Catharines",
+"len@pollockshomehardware.ca" : "HH-Pollocks Home Hardware (Store # 1437-6)",
+"kevin@ctlfreak.com" : "Control Freak Consulting",
 
 }
 
@@ -508,5 +511,8 @@ accountsCode = {
 "info@saskblindfactory.com" : "10032C",
 "lisa@stradwicksnorthbay.com" : "11217C",
 
+"stcatherines@endoftheroll.com" : "12209C",
+"len@pollockshomehardware.ca" : "11886C",
+"kevin@ctlfreak.com" : "12160C",
 }
 
