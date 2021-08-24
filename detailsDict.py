@@ -1644,12 +1644,17 @@ dictSideChannelDesc = {
 
 dictSCMountCode = {
     "lateral": "Y_MNTSC_L",
-    "face": "Y_MNTSC_F"
+    "Lateral": "Y_MNTSC_L",
+    "face": "Y_MNTSC_F",
+    "Face": "Y_MNTSC_F",
 }
 
 dictSCMountDesc = {
     "lateral": "L-Lateral mount",
-    "face": "F-Face mount"
+    "Lateral": "L-Lateral mount",
+    "face": "F-Face mount",
+    "Face": "Y_MNTSC_F"
+
 }
 
 dictSCColorCode = {
